@@ -69,7 +69,7 @@ except ImportError:
         CLOUDGENIX_AUTH_TOKEN = os.environ.get('AUTH_TOKEN')
     else:
         # not set
-        CLOUDGENIX_AUTH_TOKEN = None
+        CLOUDGENIX_AUTH_TOKEN = "966f2a40364c8d074f86c992bb4fd7eec7627a5c-pa.u.exp=9223372036854775807&pa.p.id=password&t.id=1908088711&pa.u.id=8df225c9-f941-4dc9-8129-9465a02f9eb7%401908088711&o.id=1687815409295023696&region=hood&client_ip=127.0.0.1&session_key=gyUJMOSsCNmBWhUTpAPr5ryCh8xFy9bZSuFaa85meXQwhjW8QfeIDe8aNuyFxxi2SF5DRqyBA7tV9cvUkWAHYJyqNjiKt9waAB0NNNSNjO9RSeHF7FWuO9BGVNAiY1LhXJnECwrZoV8gkSZRTZuyTXFy7Kucec4x4Ovokjz4pwnkv6PQnVTKR1wQJ9Af6AqsMwiWVo92"
 
 try:
     from cloudgenix_settings import CLOUDGENIX_USER, CLOUDGENIX_PASSWORD
